@@ -59,6 +59,11 @@ a{
     border:1px solid black;
     border-radius: 10px;
 }
+.cachorro13:hover{
+    width:350px;
+    height:350px;
+}
+    
 @media (max-width: 700px) {
     .h1 > h1{
         display: none;
