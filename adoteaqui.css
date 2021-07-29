@@ -48,6 +48,7 @@ a{
     flex-wrap: wrap;
     gap: 50px;
     padding: 20px;
+    background: lightblue;
 }
 .pet{
     width:250px;
