@@ -1,4 +1,7 @@
 
+body{
+    width:100vw;
+}
 a{
     text-decoration-color:none;
     text-decoration:none;
