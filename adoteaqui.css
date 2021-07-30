@@ -60,10 +60,10 @@ a{
     border:1px solid black;
     border-radius: 10px;
 }
-.cachorro12:hover{
+.pet:hover{
     width:350px;
     height:350px;
-
+    transition: 0.5s ease-out;
 }
     
 @media (max-width: 700px) {
@@ -73,4 +73,5 @@ a{
     .menu{
         flex-direction: column;
     }
+    
   }
