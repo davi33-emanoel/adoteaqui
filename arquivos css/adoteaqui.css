@@ -54,6 +54,43 @@ a{
     padding: 20px;
     background: lightblue;
 }
+.um{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    overflow:hidden;
+}
+.texto-cachorros{
+    display:none;
+    font-family: 'Racing Sans One', cursive;
+    position:absolute;
+    flex-direction:column;
+    z-index: 1;
+    height: 100%;
+    justify-content:space-between;
+    width:100%;
+    padding:5%;
+    box-sizing: border-box;
+    text-shadow: -1px 1px 1px red;
+}
+.nome-do-cachorro{
+    font-size:25px;
+    font-weight:bold;
+}
+.um:hover > img {
+    filter: blur(2px);
+    width:350px;
+    height:350px;
+    transition: 0.5s ease-out
+}
+.um:hover > .texto-cachorros{
+    display:flex;
+} 
 .pet{
     width:250px;
     height: 250px;
