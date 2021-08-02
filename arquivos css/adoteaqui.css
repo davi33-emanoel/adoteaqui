@@ -76,11 +76,12 @@ a{
     width:100%;
     padding:5%;
     box-sizing: border-box;
-    text-shadow: -1px 1px 1px red;
+    text-shadow: -1px 1px 1px white;
 }
 .nome-do-cachorro{
     font-size:25px;
     font-weight:bold;
+    color:black;
 }
 .um:hover > img {
     filter: blur(2px);
@@ -101,6 +102,15 @@ a{
     width:350px;
     height:350px;
     transition: 0.5s ease-out;
+}
+footer{
+    background:blueviolet;
+    display: flex;
+    justify-content: center;
+    font-size:18px;
+    padding: 10px;
+    font-family: 'Racing Sans One', cursive;
+    
 }
     
 @media (max-width: 700px) {
